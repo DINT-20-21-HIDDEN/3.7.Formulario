@@ -23,6 +23,9 @@
             <Image Grid.Column="1" Source="Assets\foto.jpg" Stretch="Fill" Margin="15,0,15,5"></Image>
             <StackPanel Grid.Column="0">
                 <Border BorderThickness="3" BorderBrush="Black" CornerRadius="5" Padding="10" Margin="0,0,0,20" Background="LightSkyBlue">
+                    <Border.Effect>
+                        <DropShadowEffect/>
+                    </Border.Effect>
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="60"></ColumnDefinition>
@@ -46,6 +49,9 @@
                     </Grid>
                 </Border>
                 <Border BorderThickness="3" BorderBrush="Black" CornerRadius="5" Padding="10" Background="LightYellow">
+                    <Border.Effect>
+                        <DropShadowEffect/>
+                    </Border.Effect>
                     <StackPanel Orientation="Horizontal">
                         <GroupBox Header="Aficiones" Width="200" HorizontalAlignment="Left" Margin="0,0,20,5">
                             <StackPanel Margin="10">
